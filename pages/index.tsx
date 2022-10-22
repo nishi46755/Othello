@@ -115,6 +115,10 @@ const Logo = styled.span`
 `
 
 const HomePage: NextPage = () => {
+  const a = [1,2,3]
+  const b = 20
+  console.log(b*2)
+
   return (
     <Container>
       <Head>
@@ -124,7 +128,7 @@ const HomePage: NextPage = () => {
       </Head>
       <Main>
         <Title>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        aaa
         </Title>
 
         <Description>
